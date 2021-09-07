@@ -5,9 +5,6 @@ permalink: /about/
 ---
 
 Hello world!
-
-### More Information
-
 This is a testing blog!
 
 ### Contact me
