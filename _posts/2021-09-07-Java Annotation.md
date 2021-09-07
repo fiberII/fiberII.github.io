@@ -27,7 +27,7 @@ Java定义了一套注解，共有7个，3个在Java.lang中，剩下4个在Java
 
 
 ## 1、Annotation架构
-![](/images/JavaAnnotation1.png)
+![](/images/JavaAnnotation1.PNG)
 
 从中我们可以看出：
 
@@ -44,7 +44,7 @@ Java定义了一套注解，共有7个，3个在Java.lang中，剩下4个在Java
 Annotation的每一个实现类，都“和1个RetentionPolicy关联”且“和1~n个ElementType关联”。
 下面，我先介绍框架图的左半边(如下图)，即 Annotation, RetentionPolicy, ElementType；然后再就 Annotation 的实现类进行举例说明。
 
-![](/images/JavaAnnotation2.png)
+![](/images/JavaAnnotation2.PNG)
 
 ## 2、Annotation组成部分
 Java Annotation的组成中，有3个非常重要的主干类。它们分别是：
@@ -160,7 +160,7 @@ public @interface MyAnnotation1{
 通过上面的示例，我们能理解：@interface用来声明Annotation，@Document用来表示该Annotation是否会出现在javadoc中，@Target用来指定Annotation的类型，@Retention用来指定Annotation的策略。
 理解这一点之后，我们就很容易理解Java中自带的Annotation的实现类，即Annotation架构图的右半边。如下图：
 
-![](/images/JavaAnnotation3.png)
+![](/images/JavaAnnotation3.PNG)
 
 **Java常用的Annotation：**
 
@@ -194,7 +194,7 @@ public @interface Deprecated{
 
 例如，若某个方法被 @Deprecated 标注，则该方法不再被建议使用。如果有开发人员试图使用或重写被 @Deprecated 标示的方法，编译器会给相应的提示信息。示例如下:
 
-![](/images/JavaAnnotation4.png)
+![](/images/JavaAnnotation4.PNG)
 
 说明：
 上面是 eclipse 中的截图，比较类中 "getString1() 和 getString2()" 以及 "testDate() 和 testCalendar()" 。
