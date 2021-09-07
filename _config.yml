@@ -9,7 +9,7 @@ name: fiberII
 description: Personal Blog
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: /images/portrait.png
+avatar: https://raw.githubusercontent.com/fiberII/fiberII.github.io/master/images/portrait.PNG
 
 #
 # Flags below are optional
