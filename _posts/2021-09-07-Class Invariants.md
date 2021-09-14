@@ -6,9 +6,10 @@ title: Class Invariants
 In OOP, a class invariant (or type invariant) is an invariant used for constraining objects of a class. Methods of the class should preserve the invariant. The class invariant constrains the state stored in the object.
 
 ```
+类不变量约束着存储在对象中的状态值，或者更准确地说，约束值的范围！
+
 类不变量是一个不变量，用于约束某一个类的对象
 类中的方法应该保护该不变量，即类的方法不能使该不变量发生改变
-类不变量约束着存储在对象中的状态值
 ```
 
 what is invariant?
